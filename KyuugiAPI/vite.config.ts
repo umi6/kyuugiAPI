@@ -4,6 +4,7 @@ import babel from '@rolldown/plugin-babel'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: process.env.BASE_PATH ?? '/kyuugiAPI/',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
