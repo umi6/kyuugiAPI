@@ -27,7 +27,8 @@ import {
 } from "three";
 
 import "./App.css";
-const FONT_URL = "/fonts/NotoSansJP-Bold.ttf";
+const BASE_URL = import.meta.env.BASE_URL;
+const FONT_URL = `${BASE_URL}fonts/NotoSansJP-Bold.ttf`;
 type SportType =
   | "volleyball"
   | "soccer"
@@ -40,10 +41,10 @@ type SportType =
 
 // モデルのパスリスト
 const OBJ_MODELS = [
-  "/models/BasketBall.obj",
-  "/models/golf.obj",
-  "/models/volley.obj",
-  "/models/soccer.obj",
+  `${BASE_URL}models/BasketBall.obj`,
+  `${BASE_URL}models/golf.obj`,
+  `${BASE_URL}models/volley.obj`,
+  `${BASE_URL}models/soccer.obj`,
 ];
 
 const SPORTS: { id: SportType; label: string }[] = [
