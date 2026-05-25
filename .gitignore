@@ -1,0 +1,16 @@
+KyuugiAPI/.env.example
+KyuugiAPI/public/models/BasketBall_Albedo.png
+KyuugiAPI/public/models/BasketBall_AO.png
+KyuugiAPI/public/models/BasketBall_Metallic.png
+KyuugiAPI/public/models/BasketBall_Normal.png
+KyuugiAPI/public/models/BasketBall_Roughness.png
+KyuugiAPI/public/models/BasketBall.mtl
+KyuugiAPI/public/models/BasketBall.obj
+KyuugiAPI/public/models/golf.jpg
+KyuugiAPI/public/models/golf.mtl
+KyuugiAPI/public/models/golf.obj
+KyuugiAPI/public/models/soccer.mtl
+KyuugiAPI/public/models/soccer.obj
+KyuugiAPI/public/models/volley.jpg
+KyuugiAPI/public/models/volley.mtl
+KyuugiAPI/public/models/volley.obj
