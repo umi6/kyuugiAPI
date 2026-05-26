@@ -1,16 +1,29 @@
-KyuugiAPI/.env.example
-KyuugiAPI/public/models/BasketBall_Albedo.png
-KyuugiAPI/public/models/BasketBall_AO.png
-KyuugiAPI/public/models/BasketBall_Metallic.png
-KyuugiAPI/public/models/BasketBall_Normal.png
-KyuugiAPI/public/models/BasketBall_Roughness.png
-KyuugiAPI/public/models/BasketBall.mtl
-KyuugiAPI/public/models/BasketBall.obj
-KyuugiAPI/public/models/golf.jpg
-KyuugiAPI/public/models/golf.mtl
-KyuugiAPI/public/models/golf.obj
-KyuugiAPI/public/models/soccer.mtl
-KyuugiAPI/public/models/soccer.obj
-KyuugiAPI/public/models/volley.jpg
-KyuugiAPI/public/models/volley.mtl
-KyuugiAPI/public/models/volley.obj
+# Logs
+**/logs
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/lerna-debug.log*
+
+# Dependencies / build output
+**/node_modules
+**/dist
+**/dist-ssr
+
+# Local env files
+**/*.local
+**/.env.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
